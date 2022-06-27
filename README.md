@@ -1,2 +1,2 @@
-# primeiroexemlo
- repositorio primario
+# Primeiro Exemlo
+ repositório primário
