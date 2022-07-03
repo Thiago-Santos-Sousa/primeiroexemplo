@@ -9,64 +9,167 @@
   <title>Mundo WEB</title> <!--titulo do site(janela)-->
 </head>
 <body>
-  <h1>Parágrafos e quebras de linha</h1>
-  <hr>
-  <p>Você pode criar paragrafos a qualquer momento, basta colocar tudo entre o par de tags &lt;p&gt; e &lt;/p&gt;</p> <!--LASS THAN/ GREATER THAN-->
-  <hr>
-  <p>Se precisar quebrar o texto em algum lugar especifico <br> como esse, você pode usar a tag br</p>
-  <hr>
-  <P>Vamos adicionar alguns simbolos especiais</P>
-  &reg;
-  &COPY;
-  &euro;
-  &trade;
-  &pound;
-  &yen;
-  &cent;
-  &Delta;
-  &UpArrow;
-  <p>Vamos adicionar emojis &#x1F596;
-    &#x1F60E;</p>
-  <hr>
-  <h1>Principais formatações</h1>
-  <h2>Negrito / Destaque</h2>
-  <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (Não semântica) </p>
-  <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag STRONG(Semântica) </p>
-  <hr>
-  <h2>Italico / Ênfase</h2>
-  <p>Nesta frase tem um <i>termo em Italico</i> usando a tag I (Não semântica)</p>
-  <p>Nesta frase temos uma <em>frase em emfase</em>, usando a tag Em (Semântica)</p>
-  <hr>
-  <h2>Texto marcado</h2>
-  <p>Podemos criar também um <mark style="background-color: #bbbbbb;">texto marcado</mark> usando a tag Mark</p>
-  <h2>TEXTO GRANDE / texto pequeno</h2>
-  <p>Estamos criando um texto grande (Para aumentar letras, apenas com as CSS) e <small>um pequeno (texto letras pequenas - tag small)</small></p>
-  <h2>Texto deletado</h2>
-  <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado (Sêmantico - tag del)</p>
-  <h2>Texto inserido</h2>
-  <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois (Sêmantica - tag ins)</p>
-  <hr>
-  <h2>Texto sobrescrito</h2>
-  <p>Serve para inserir coisas do tipo x<sup>20</sup>+3</p>
-  <h2>Texto subscrito</h2>
-  <p>Serve para inserir coisas do tipo H<sub>2</sub>o</p>
-  <hr>
-  <h1>Outras formatações</h1>
-  <h2>Código fonte</h2>
-  <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript</p><!--Tag <code> monoespassa o texto-->
-  <hr>
-  <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo:<q>O computador é um burro muito rápido</q></p><!--A tag <q> da sentido ao texto no qual ocorreu uma sitação-->
-  <hr>
-  <h2>Sitações completas</h2>
-  <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html5&printsec=frontcover">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nisi, molestias est a delectus veritatis ad officia velit facere quo molestiae totam odit, illum iste accusantium neque corporis! Minus, unde.
-  </blockquote><!--A tag <blockquote> define uma sitação mais completa, na qual há uma quebra de linha e um deslocamento lateral, sitando um autor por exemplo.-->
-  <hr>
-  <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p><!--A tag <abbr> serve para mostrar o texto abreviado das siglas-->
-  <hr>
-  <h2>Texto invertido</h2>
-  <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p><!--A tag <bdo> faz o texto se inverter-->
+  <h1>Tag's base em um Documento HTML</h1>
+  <h2>Parágrafos e quebras de linha</h2>
+  <ul>
+   <li>Você pode criar paragrafos a qualquer momento, basta colocar tudo entre o par de tags &lt;p&gt; e &lt;/p&gt;</li> <!--LASS THAN/ GREATER THAN-->
+   <li>Se precisar quebrar o texto em algum lugar especifico <br> como esse, você pode usar a tag &lt;br&gt; e &lt;/br&gt;</li>
+  </ul>
+  <h2>Simbolos especiais</h2>
+   <ol type="1">
+     <li>&reg;</li>
+     <li>&COPY;</li>
+     <li>&euro;</li>
+     <li>&trade;</li>
+     <li>&pound;</li>
+     <li>&yen;</li>
+     <li>&cent;</li>
+     <li>&Delta;</li>
+     <li>&UpArrow;</li>
+   </ol>
+  <ul>
+   <li>Adicionando Emojis &#x1F596;
+    &#x1F60E;</li>
+  </ul>
+  <h2>Principais formatações</h2>
+  <ul>
+     <li>Negrito / Destaque</li>
+   <ul type="1">
+       <li>Nessa frase temos um <b>termo em negrito</b> usando o par de tag &lt;b&gt; &lt;/b&gt;(Não semântico) </li>
+       <li>Nesta frase temos um <strong>termo em destaque</strong> usando o par de tag &lt;strong&gt;&lt;/strong&gt;(Semântico) </li>
+   </ul>
+   </ul>
+  <ul>
+   <li>Italico / Ênfase</li>
+   <ul type="1">
+     <li>Nesta frase tem um <i>termo em Italico</i> usando o par de tag &lt;i&gt; e &lt;/i&gt;(Não semântico)</li>
+     <li>Nesta frase temos uma <em>frase em ênfase</em>, usando o par de tag &lt;em&gt; e &lt;em&gt;(Semântico)</li>
+    </ul>
+  </ul>
+   <ul>
+    <li>Texto marcado</li>
+     <ul>
+       <li>Podemos criar também um <mark style="background-color: #bbbbbb;">texto marcado</mark> usando o par de tag &lt;mark&gt; e &lt;/mark&gt;</li>
+     </ul>
+  </ul>
+  <ul>
+   <li>Texto grande | texto pequeno</li>
+   <ul>
+     <li>Estamos criando um texto grande (Para aumentar letras, apenas com as CSS) e <small>um pequeno (texto letras pequenas - par de tag small)</small></li>
+   </ul>
+  </ul>
+  <ul>
+   <li>Texto deletado</li>
+   <ul>
+     <li>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado (Sêmantico - par de tag del)</li>
+   </ul>
+  </ul>
+  <ul>
+   <li>Texto inserido</li>
+   <ul>
+     <li>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois (Sêmantico - par de tag ins)</li>
+   </ul>
+  </ul>
+  <ul>
+    <li>Texto sobrescrito</li>
+    <ul type="1">
+      <li>Serve para inserir coisas do tipo x<sup>20</sup>+3(Usa-se o par de tag sup)</li>
+    </ul>
+  </ul>
+  <ul>
+    <li>Texto subscrito</li>
+    <ul type="1">
+      <li>Serve para inserir coisas do tipo H<sub>2</sub>o (Usa-se o par de tag sub)</li>
+    </ul>
+  </ul>
+  <h2>Outras formatações</h2>
+  <ul>
+    <li>Código fonte</li>
+    <ul>
+      <li>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript(O par de tag code monoespassa o texto)</li>
+    </ul><!--Tag <code> monoespassa o texto-->
+  </ul>
+  <ul>
+    <li>Citação simples</li>
+    <ul>
+      <li>Como diria o pai de um amigo:<q>O computador é um burro muito rápido</q>(O par de tag q da sentido ao texto no qual ocorreu uma sitação)</li><!--A tag <q> da sentido ao texto no qual ocorreu uma sitação-->
+    </ul>
+  </ul>
+  <ul>
+    <li>Sitação completa</li>
+    <ul>
+      <li>
+        <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html5&printsec=frontcover">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nisi, molestias est a delectus veritatis ad officia velit facere quo molestiae totam odit, illum iste accusantium neque corporis! Minus, unde.
+        </blockquote>O par de tag blockquote define uma sitação mais completa, na qual há uma quebra de linha e um deslocamento lateral, sitando um autor por exemplo.<!--O par de tag blockquote define uma sitação mais completa, na qual há uma quebra de linha e um deslocamento lateral, sitando um autor por exemplo.-->
+      </li>
+    </ul>
+  </ul>
+   <ul>
+     <li>Abreviações</li>  
+     <ul>
+       <li>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!(O par de tag abbr serve para mostrar o texto abreviado das siglas)</li>
+     </ul><!--O par de tag abbr serve para mostrar o texto abreviado das siglas-->
+   </ul>
+  <ul>
+   <li>Texto invertido </li>
+   <ul>
+     <li><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo>(O par de tag bdo faz o texto se inverter)</li>
+   </ul>
+  </ul><!--A tag <bdo> faz o texto se inverter-->
+  
+  <h2>Trabalhando com listas</h2>
+  <ul>
+    <li>Listas ordenadas</li>
+     <ol><!-- Lista organizada-type: 1 A a I i-->
+       <li>Acordar</li>
+       <li>Olhar o Bebê</li>
+       <li>Escovar os dentes</li>
+       <li>Arrumar a cama</li>
+       <li>Lanchar</li>
+       <li>(Usa-se os pares de tag 'ol' seguida por 'li')</li>
+     </ol>
+  </ul>
+  <ul>
+    <li>Listas não ordenadas</li>
+     <ul><!--Ul Lista sem organização-->
+       <li>Acordar</li>
+       <li>Banhar</li>
+       <li>Lanchar</li>
+       <li>Correr</li>
+       <li>(Usa-se os pares de tag 'ul' e 'li')</li>
+     </ul>
+  </ul>
+  <ul>
+    <li>Juntando Listas</li>
+    <ul>
+      <li>linguagens</li>
+      <ol>
+        <li>C#</li>
+        <li>Python</li>
+      </ol>
+    </ul>
+    <ol type="I">
+      <li>Javascript</li>
+      <li>Livros</li>
+       <ul>
+        <li>Maujor</li>
+       </ul>
+      <li>aplicações</li>
+    </ol>
+  </ul>
+  <ul>
+    <li>Lista de definições</li>
+    <dl><!--Cria uma lista parecida com um dicionário, termo | função-->
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>Javascript</dt>
+      <dd>Linguagem de programação</dd>
+      <dt>#########</dt>
+      <dd>(Usa-se os pares de tag 'dt' e 'dd' Essa lista parece com um dicionário, termo | função)</dd>
+    </dl>
+  </ul>
   </body>
 </html>
